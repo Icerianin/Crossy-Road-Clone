@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5533384646040390309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3911561265558079725}
+  - component: {fileID: 4491899282610800724}
+  - component: {fileID: 4729649735913487513}
+  - component: {fileID: -1587819661498035794}
+  m_Layer: 0
+  m_Name: GrassChunk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3911561265558079725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5533384646040390309}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 1, z: 0.4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4491899282610800724
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5533384646040390309}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4729649735913487513
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5533384646040390309}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a4297bdfd1341ad4aa96f9ecac76ffaf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-1587819661498035794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5533384646040390309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285fb154072badd4da0c5913f94ab657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 4729649735913487513}
+  _treePrefabs:
+  - {fileID: 331550369199509579, guid: d276f9ec597c2fc468ea3d25705a9f8c, type: 3}
+  - {fileID: 3899902194995393416, guid: 43708bb0972b17641a429dfbf5c178de, type: 3}
+  - {fileID: 5713087145627477529, guid: 868becd833acda644a1571e7729ed3df, type: 3}
+  - {fileID: 2821451251591732313, guid: 9f508f02167e8fd4da7900ab6edb1ad2, type: 3}
+  - {fileID: 2934558828751380817, guid: 9609dfe0026e15b448c68be0ee5fcb3e, type: 3}
+  - {fileID: 8910766122005067410, guid: 3452a4f385dd1844a95a20a52bc31487, type: 3}
+  - {fileID: 6766278021101125313, guid: 25f4eeb42be7dcd42b62d2f637a4686c, type: 3}
+  - {fileID: 8357254321874188334, guid: 5cd2f4f8846cbc44fa6534f7d1a6f4d0, type: 3}
+  - {fileID: 5907463486579450805, guid: 06ddeca88d7850b4699e82a250db4578, type: 3}
+  - {fileID: 1433232338288909071, guid: 6b6a684a21a0b4b408a9b27ef6f98db3, type: 3}
+  - {fileID: 6312059486255445319, guid: 764d1696624b7d745a9aaa1fe2b38f00, type: 3}
+  - {fileID: 3899067332106609786, guid: 67450361ad61f104a9716dbe6db5bdee, type: 3}
+  - {fileID: 2034496254245721327, guid: 7b02e2e1ffd9d72439ac6f75072eb9f5, type: 3}
+  - {fileID: 1573134275362597009, guid: 365567e2fa2e679458e40942a8232dcd, type: 3}
+  - {fileID: 6643157760616257005, guid: 338547ab4bd26ee40a52413c81bfb673, type: 3}
+  - {fileID: 3388897875460686891, guid: 9a629bd714a21c84aa2ea922d4a4ddca, type: 3}
+  _cellsCount: 25
+  _cellSize: 4
+  _fillProbability: 0.5
